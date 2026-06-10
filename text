@@ -1,0 +1,53 @@
+auto-documentary-studio/
+├── prisma/
+│   └── schema.prisma
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── projects/
+│   │   │   │   └── route.ts
+│   │   │   ├── generate/
+│   │   │   │   └── route.ts
+│   │   │   ├── render/
+│   │   │   │   └── route.ts
+│   │   │   └── keys/
+│   │   │       └── route.ts
+│   │   ├── dashboard/
+│   │   │   ├── page.tsx
+│   │   │   ├── new/
+│   │   │   │   └── page.tsx
+│   │   │   └── projects/
+│   │   │       └── [id]/
+│   │   │           └── page.tsx
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── layout/
+│   │   │   └── DashboardLayout.tsx
+│   │   ├── projects/
+│   │   │   └── ProjectCreator.tsx
+│   │   ├── editor/
+│   │   │   └── SceneTimeline.tsx
+│   │   └── settings/
+│   │       └── ApiKeyManager.tsx
+│   ├── hooks/
+│   │   └── useVideoRenderer.ts
+│   ├── lib/
+│   │   ├── ai/
+│   │   │   ├── adapter.ts
+│   │   │   └── pipeline.ts
+│   │   ├── auth.ts
+│   │   ├── prisma.ts
+│   │   ├── queue.ts
+│   │   └── storage.ts
+│   └── types/
+│       └── index.ts
+├── .env.example
+├── .gitignore
+├── docker-compose.yml
+├── Dockerfile
+├── next.config.js
+├── package.json
+├── tailwind.config.ts
+└── tsconfig.json
